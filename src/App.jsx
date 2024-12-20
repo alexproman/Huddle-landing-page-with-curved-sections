@@ -13,11 +13,14 @@ const App = () => {
   return (
     <>
     <Header />
-    <Hero />
-    <Section1 />
-    <Section2 />
-    <Section3 />
-    <LastSection />
+    <main>
+      <Hero />
+      <Section1 />
+      <Section2 />
+      <Section3 />
+      <LastSection />
+    </main>
+    
     <Footer />
     </>
   )

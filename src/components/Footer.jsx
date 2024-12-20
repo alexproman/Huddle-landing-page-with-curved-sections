@@ -61,19 +61,13 @@ const Footer = () => {
     <div className="social-media">
       <ul className='flex gap-4 text-4xl text-gray-50 mt-16'>
         <li>
-          <a href="https://www.facebook.com" target="_blank" alt='facebooke-page' rel="noopener noreferrer">
             <FontAwesomeIcon icon={faFacebookSquare}/>
-          </a>
         </li>
         <li>
-          <a href="https://instagram.com" target="_blank" alt='instagram-page' rel="noopener noreferrer" >
             <FontAwesomeIcon icon={faInstagram} />
-          </a>
         </li>
         <li>
-          <a href="https://x.com" target="_blank" alt='twitter-page' rel="noopener noreferrer" >
             <FontAwesomeIcon icon={faSquareTwitter} />
-          </a>
         </li>
       </ul>
     </div>
